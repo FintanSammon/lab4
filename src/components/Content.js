@@ -1,3 +1,4 @@
+//// Here is a functional component named Content, which displays a greeting and the current time
 function Content(){
     return(
         <div>
@@ -6,4 +7,6 @@ function Content(){
         </div>
     );
 }
+//// Here I exported the Content component to make it available for use in other parts of the app
+
 export default Content;
