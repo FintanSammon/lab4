@@ -8,7 +8,7 @@ function Books(props){
     return props.myBooks.map(
         (book)=>{
             
-            // Here I pass book information to the BookItem component and use 'key' for React rendering optimization
+            // Here I pass book information to the BookItem component and use key for React rendering optimization
             return <BookItem mybook={book} key={book.isbn}></BookItem>
          }
     );
